@@ -1,0 +1,802 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"don",
+				"donne"
+			],
+			[
+				"heur",
+				"heure_par_jours"
+			],
+			[
+				"pso",
+				"object-position\tproperty"
+			],
+			[
+				"bacgro",
+				"background\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"alig",
+				"align-items\tproperty"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
+				"fl",
+				"flex-end\tjustify-content"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"ro",
+				"row-reverse\tflex-direction"
+			],
+			[
+				"fi",
+				"fieldset\tTag"
+			],
+			[
+				"cal",
+				"calculateur2"
+			],
+			[
+				"sal",
+				"salaire_finale"
+			],
+			[
+				"ind",
+				"Indémenité"
+			],
+			[
+				"sa",
+				"salaire_net"
+			],
+			[
+				"salaire",
+				"salaire_net"
+			],
+			[
+				"mon",
+				"montant_heures_complementaires"
+			],
+			[
+				"heru",
+				"heure_net"
+			],
+			[
+				"he",
+				"heure_net"
+			],
+			[
+				"heures",
+				"heures_complementaires"
+			],
+			[
+				"co",
+				"conge_paye"
+			],
+			[
+				"salai",
+				"salaire_net_post_deduction"
+			],
+			[
+				"con",
+				"conge"
+			],
+			[
+				"reten",
+				"retenu_sur_salaire"
+			],
+			[
+				"mo",
+				"montant_heures_supp"
+			],
+			[
+				"heu",
+				"heure_net"
+			],
+			[
+				"heures_",
+				"heures_supp"
+			],
+			[
+				"to",
+				"totale_indemnite"
+			],
+			[
+				"tota",
+				"totale_indemnite"
+			],
+			[
+				"jours",
+				"jours_effectif"
+			],
+			[
+				"jour",
+				"jours_effectif"
+			],
+			[
+				"jo",
+				"jours_absence"
+			],
+			[
+				"re",
+				"retenu_sur_salaire"
+			],
+			[
+				"nb",
+				"nb_jours_potentiel"
+			],
+			[
+				"her",
+				"heure_mensuel"
+			],
+			[
+				"de",
+				"deduction_par_jours"
+			],
+			[
+				"cl",
+				"calcul2"
+			],
+			[
+				"heure_",
+				"heure_brut"
+			],
+			[
+				"n",
+				"nb_semaine"
+			],
+			[
+				"heure",
+				"heure_brut"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"tv",
+				"totale_tva"
+			],
+			[
+				"ret",
+				"retrait_net"
+			],
+			[
+				"retr",
+				"retrait_par_jour"
+			],
+			[
+				"jou",
+				"jour_travail_potentiel"
+			],
+			[
+				"se",
+				"semaine_effective"
+			],
+			[
+				"ke",
+				"kebab"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"fo",
+				"for\tfor …"
+			],
+			[
+				"f",
+				"f"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"res",
+				"result4"
+			],
+			[
+				"a",
+				"addition"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"hell",
+				"hello_world"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"li",
+				"list-style\tproperty"
+			],
+			[
+				"background",
+				"background-size\tproperty"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"i",
+				"img\tTag"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"ba",
+				"background-size\tproperty"
+			],
+			[
+				"back",
+				"background-attachment\tproperty"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"ma",
+				"mailito"
+			],
+			[
+				"m",
+				"mailito_valid"
+			],
+			[
+				"mailito",
+				"mailito_valid"
+			],
+			[
+				"mail",
+				"mailito"
+			],
+			[
+				"rgb",
+				"rgba()\tbackground"
+			],
+			[
+				"larg",
+				"larger\tfont-size"
+			],
+			[
+				"sm",
+				"smaller\tfont-size"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"fle",
+				"flex-direction\tproperty"
+			],
+			[
+				"sp",
+				"space-between\talign-content"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"utf",
+				"utf8_encode"
+			],
+			[
+				"align",
+				"align-self\tproperty"
+			],
+			[
+				"r",
+				"row-reverse\tflex-direction"
+			],
+			[
+				"fu",
+				"fumseck"
+			],
+			[
+				"file",
+				"file_content"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"te",
+				"test_file"
+			],
+			[
+				"fil",
+				"files_handle"
+			],
+			[
+				"file_",
+				"file_handle"
+			],
+			[
+				"fget",
+				"fgets"
+			],
+			[
+				"fg",
+				"fgets"
+			],
+			[
+				"read",
+				"read"
+			],
+			[
+				"rea",
+				"readfile"
+			],
+			[
+				"echo",
+				"echo\techo \"…\""
+			],
+			[
+				"s",
+				"soustraction"
+			],
+			[
+				"ech",
+				"echo\techo \"…\""
+			],
+			[
+				"t",
+				"tableau"
+			],
+			[
+				"count",
+				"count_table"
+			],
+			[
+				"ci",
+				"city"
+			],
+			[
+				"cit",
+				"cities"
+			],
+			[
+				"su",
+				"surface"
+			],
+			[
+				"cti",
+				"cities"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"tr",
+				"transactions"
+			],
+			[
+				"arr",
+				"array3"
+			],
+			[
+				"array",
+				"array3"
+			],
+			[
+				"ar",
+				"array1"
+			],
+			[
+				"ch",
+				"chaine2"
+			],
+			[
+				"e",
+				"etoile"
+			],
+			[
+				"Em",
+				"Emmanuel"
+			],
+			[
+				"c",
+				"case\tcase …"
+			],
+			[
+				"sub",
+				"submit"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"cha",
+				"Chaussures"
+			],
+			[
+				"ca",
+				"Casquettes"
+			],
+			[
+				"str_",
+				"str_shuffle"
+			],
+			[
+				"var",
+				"var2"
+			],
+			[
+				"va",
+				"var2"
+			],
+			[
+				"v",
+				"var2"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"spac",
+				"space-between\tjustify-content"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"tel",
+				"text-align\tproperty"
+			],
+			[
+				"fig",
+				"figcaption\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 143.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp64/www/ran2-2/html/diet_water.php",
+		"/C/wamp64/www/ran2-2/html/style.css",
+		"/C/wamp64/www/ran2-2/index.html",
+		"/C/wamp64/www/serie_exo3.php",
+		"/C/wamp64/www/serie_exo2.php",
+		"/C/wamp64/www/serie_exo.php",
+		"/C/wamp64/www/form.php",
+		"/C/wamp64/www/flexbox.php",
+		"/C/wamp64/www/styleflex.css",
+		"/C/wamp64/www/paie.php",
+		"/C/wamp64/www/calculateur.php",
+		"/C/wamp64/www/stylecalcu.css",
+		"/C/wamp64/www/calculateur2modele.php",
+		"/C/wamp64/www/calculateur2.php",
+		"/C/wamp64/www/Inscription.php",
+		"/C/wamp64/www/table.css",
+		"/C/wamp64/www/projet_file_rouge/css/style.css",
+		"/C/wamp64/www/projet_file_rouge/index.html",
+		"/C/wamp64/www/projet_file_rouge/pages_html/header.php",
+		"/C/wamp64/www/projet_file_rouge/pages_html/connexion.php",
+		"/C/wamp64/www/projet_file_rouge/pages_html/actu.php",
+		"/C/wamp64/www/projet_file_rouge/pages_html/red_dead_redemption2.php",
+		"/C/wamp64/www/projet_file_rouge/pages_html/jhon_marston.php",
+		"/C/wamp64/www/projet_file_rouge/pages_html/armadillo.php",
+		"/C/wamp64/www/projet_file_rouge/pages_html/red_dead_redemption.php",
+		"/C/wamp64/www/projet_file_rouge/pages_html/la_bande_de_dutch.php",
+		"/C/wamp64/www/projet_file_rouge/pages_html/Inscription.php",
+		"/C/wamp64/www/projet_file_rouge/pages_html/side-bar.php",
+		"/C/wamp64/www/include.php",
+		"/C/wamp64/www/ran2-2/information.php",
+		"/C/wamp64/www/traitement.php",
+		"/C/wamp64/www/projet_file_rouge/pages_html/red_dead_redemption.html",
+		"/C/wamp64/www/projet_file_rouge/pages_html/red_dead_redemption2.html",
+		"/C/wamp64/www/projet_file_rouge/pages_html/la_bande_de_dutch.html",
+		"/C/wamp64/www/projet_file_rouge/pages_html/jhon_marston.html",
+		"/C/wamp64/www/projet_file_rouge/pages_html/actu.html",
+		"/C/wamp64/www/projet_file_rouge/pages_html/armadillo.html",
+		"/C/wamp64/www/yourfile.php",
+		"/C/wamp64/www/traitement2.php",
+		"/C/wamp64/www/exercice/test2.php",
+		"/C/wamp64/www/exercice/test3.php",
+		"/C/wamp64/www/exercice/exo.php",
+		"/C/wamp64/www/exercice/exo4.php",
+		"/C/wamp64/www/exercice/exo5.php",
+		"/C/wamp64/www/contact.php",
+		"/C/wamp64/www/TPtuto.php",
+		"/C/wamp64/www/projet_file_rouge/pages_html/Inscription.html",
+		"/C/wamp64/www/projet_file_rouge/pages_html/connexion.html",
+		"/C/wamp64/www/document_html/connexion.html",
+		"/C/wamp64/www/fonctions.php",
+		"/C/wamp64/www/projet_file_rouge/css/table.css",
+		"/C/wamp64/www/document_html/style.css",
+		"/C/wamp64/www/projet_file_rouge/pages_html/index.html",
+		"/C/wamp64/www/projet_file_rouge/pages_html/red_dead_renouveau.html",
+		"/C/Users/rcmd/Documents/Document html/style.css",
+		"/C/wamp64/www/projet_file_rouge/style.css",
+		"/C/wamp64/www/projet_file_rouge/red_dead_renouveau.html",
+		"/C/wamp64/www/exo6.php",
+		"/C/wamp64/www/files.php",
+		"/C/wamp64/www/document_html/Projet.php",
+		"/C/wamp64/www/projet/Quizz.php",
+		"/C/wamp64/www/projet/page2.php",
+		"/C/wamp64/www/projet/style_pra.css",
+		"/C/wamp64/www/projet/exo_pra.php",
+		"/C/wamp64/www/projet/Travail à faire en HTML",
+		"/C/wamp64/www/projet/Projet.php",
+		"/C/wamp64/www/style_pra.css",
+		"/C/wamp64/www/crocdur.php",
+		"/C/wamp64/www/exo_pra.php",
+		"/C/wamp64/www/document_html/style2.css",
+		"/C/wamp64/www/document_html/dossier.php",
+		"/C/wamp64/www/algo.php",
+		"/C/wamp64/www/page2.php",
+		"/C/wamp64/www/tableaux.php",
+		"/C/Users/rcmd/Desktop/Style Tricia.css",
+		"/C/wamp64/www/page.php",
+		"/C/wamp64/www/dossier.php",
+		"/C/wamp64/www/acceuil.php",
+		"/C/wamp64/www/style5.css",
+		"/C/wamp64/www/variable.php",
+		"/C/Users/rcmd/Documents/Développement en PHP/Exercice_S5.txt",
+		"/C/wamp64/www/exo4.php",
+		"/C/wamp64/www/exo5.php",
+		"/C/wamp64/www/exo.php",
+		"/C/Users/rcmd/Documents/Développement en PHP/exo4.php",
+		"/C/wamp64/www/connexion.php",
+		"/C/wamp64/www/boucles.php",
+		"/C/wamp64/www/Document html/flexbox.html",
+		"/C/wamp64/www/Document html/table.css",
+		"/C/wamp64/www/Test1.php",
+		"/C/wamp64/www/boolean.php",
+		"/C/wamp64/www/test2.php",
+		"/C/wamp64/www/Document html/Formulaire.html",
+		"/C/wamp64/www/test3.php",
+		"/C/Users/rcmd/Desktop/exercices_php.txt",
+		"/C/wamp64/www/Les booléens.php",
+		"/C/wamp64/www/Les booléens",
+		"/C/Users/rcmd/Downloads/kuEHUUqyRTOuej3OHJZB_le_gateau_maj.docx",
+		"/C/Users/rcmd/Desktop/Index.html",
+		"/C/Users/rcmd/Documents/Document html/Index tricia.html",
+		"/C/Users/rcmd/Documents/Document html/Style Tricia.css",
+		"/C/Users/rcmd/Documents/Document html/Page 2.html",
+		"/C/Users/rcmd/Documents/Document html/style2.css",
+		"/C/wamp64/www/tricia/styles.css",
+		"/C/wamp64/www/tricia/index.html",
+		"/C/wamp64/www/Document html/Index tricia.html",
+		"/C/wamp64/www/Document html/triss_coiffure.php",
+		"/C/wamp64/www/Document html/Style Tricia.css",
+		"/C/Users/rcmd/Documents/Document html/tableaux.html",
+		"/C/Users/rcmd/Documents/Document html/flexbox.html",
+		"/C/Users/rcmd/Documents/Document html/style5.css",
+		"/C/Users/rcmd/Documents/Document html/triss_coiffure.html",
+		"/C/Users/rcmd/Documents/Document html/test.html",
+		"/C/Users/rcmd/Documents/Document html/style_tri2.css",
+		"/C/Users/rcmd/Documents/Document html/style_tri.css",
+		"/C/Users/rcmd/Documents/Document html/triss coiffure.html",
+		"/C/Users/rcmd/Documents/Document html/TP.html",
+		"/C/Users/rcmd/Documents/Document html/page4.html",
+		"/C/Users/rcmd/Documents/Document html/Page 1.html",
+		"/C/Users/rcmd/Documents/Document html/index.html",
+		"/E/Document html/style5.css",
+		"/E/Document html/flexbox.html",
+		"/E/Document html/style3.css",
+		"/E/Document html/style2.css",
+		"/E/Document html/Page 1.html",
+		"/E/Document html/style.css"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "style.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
