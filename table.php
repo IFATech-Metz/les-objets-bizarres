@@ -23,7 +23,7 @@
 										$handle= fopen('n.txt', 'r');
 										$ligne= fgets($handle);
 										$donnees = explode(":", $ligne);
-										
+										echo "<tr>";
 										for ($i=0; $i <count($donnees) ; $i++) 
 
 											{ 
@@ -34,7 +34,7 @@
 											
 											
 
-
+										echo "</tr>";
 										fclose($handle);
 									}
 					
