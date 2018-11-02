@@ -42,16 +42,7 @@
 
 			include 'header_jeremy.php';
 		?>
-<<<<<<< HEAD
-			<header>
-		<h1>Le Catalogue des 10 Objets les plus bizarres et inutiles</h1>
-			</header>
-			<nav>
-				barre de navigation
-			</nav>
-=======
-		
->>>>>>> 40ebd7447583a9b6b3b11da891d46b0030b61b62
+
 
 			<section>
 				<table border="1">
