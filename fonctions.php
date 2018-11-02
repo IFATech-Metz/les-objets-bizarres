@@ -35,7 +35,7 @@ function creation($x, $y, $z)
 					function open($x)
 				{
 ////////////////////ouverture du fichier////////////////////////////
-				$handle= fopen('$x', 'r');
+				$handle= fopen($x, 'r');
 				$read_lines="";	 
 				while (!feof($handle))
 					{

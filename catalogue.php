@@ -8,12 +8,14 @@
 	<body>
 		<?php
 				include 'fonctions.php';
+				$x='donnees/catalogue.txt';
+				open($x);
 				/*if (!isset($_POST['submit'])) 
 					{*/
 				//function open($x)
 					//{
 	////////////////////ouverture du fichier////////////////////////////
-					$handle= fopen('donnees/catalogue.txt', 'r');
+					/*$handle= fopen('donnees/catalogue.txt', 'r');
 					$read_lines="";	 
 					while (!feof($handle))
 						{
@@ -36,16 +38,20 @@
 
 						$handle_write= fwrite($handle_file, $input4);
 						fclose($handle_file);
-					}
+					}*/
 
-			
+			include 'header_jeremy.php';
 		?>
+<<<<<<< HEAD
 			<header>
 		<h1>Le Catalogue des 10 Objets les plus bizarres et inutiles</h1>
 			</header>
 			<nav>
 				barre de navigation
 			</nav>
+=======
+		
+>>>>>>> 40ebd7447583a9b6b3b11da891d46b0030b61b62
 
 			<section>
 				<table border="1">
@@ -80,9 +86,9 @@
 								}
 						
 								}else
-									{
+									{ double_array($array);
 
-										foreach ($array as $key => $value) 
+										/*foreach ($array as $key => $value) 
 											{
 												echo 
 												"<tr>";
@@ -97,11 +103,11 @@
 												"</tr>";
 												$input1= $_POST['id'];
 												$input2=  $_POST['name'];
-												$input3= $_POST['date'];
+												$input3= $_POST['date'];*/
 												
 												echo crea($input1, $input2, $input3);
 											}
-							}
+							//}
 						
 
 					?>
