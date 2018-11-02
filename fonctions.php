@@ -1,4 +1,4 @@
-<?	
+<?php	
 	function crea($x, $y, $z)
 				/////////////////////création de contenu////////////////////////
 					{

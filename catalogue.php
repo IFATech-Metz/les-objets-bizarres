@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<?php
-				//include 'fonctions.php';
+				include 'fonctions.php';
 				/*if (!isset($_POST['submit'])) 
 					{*/
 				//function open($x)
