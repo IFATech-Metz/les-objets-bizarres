@@ -1,0 +1,11 @@
+ID;<a>TITRE</a>;date:
+N1;<a href='html/nophone.php'>le nophone</a>;6 juin 2011:
+N2;<a href='html/porte-glace.php'> le porte-glace à piles</a>;27 juillet 2016:
+N3;<a href='html/tikker.php'>le tikker</a>;16 juin 2018:
+N4;<a href='html/perruque-bebe.php'>perruque pour bebe</a>;26 septembre 2008:
+N5;<a href='html/dvd_rewinder.php'>dvd rewinder</a>;13 mai 1998:
+N6;<a href='html/wine_glass_grip.php'>le wine glass grip</a>;9 octobre 1997:
+N7;<a href='html/pet_rock.php'>pet rock</a>; 22 novembre 2002:
+N8;<a href='html/diet_water.php'>diet water</a>;11 juillet 2005:
+N9;<a href='html/head_band.php'>headband</a>;17 août 2016:
+N10;<a href='html/toilet_paper_hat.php'>toilet paper hat;1 octobre 2018

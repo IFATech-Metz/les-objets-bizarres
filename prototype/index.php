@@ -65,6 +65,10 @@
 						<td><a href="html/toilet_paper_hat.php">Toilet paper hat</a></td>
 						<td>1 octobre 2018</td>
 					</tr>
+					<tr>
+						<td><input type="button" name="clik2" value="créer"></td>
+						<td><input type="button" name="clik2" value="supprimer"></td>
+					</tr>
 				</table>
 			</article>
 		</section>

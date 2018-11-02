@@ -95,7 +95,57 @@
 		
 	</table>
 <?php
-			
+	function catalogue()
+				{
+
+								
+								/*$handle_files= fopen('donnees/catalogue.txt', 'r');
+								$read= fgets($handle_files);*/
+								
+								//////////////////////////////
+								$handle= fopen('donnees/cata.txt', 'r');
+								$read_lines="";	 
+								while (!feof($handle)) {
+									$lines= fgets($handle);
+									$encode= utf8_encode($lines);
+									$read_lines= $read_lines . "" . $encode;
+								 
+								}
+								$array= explode(":", $read_lines);
+								
+									
+								
+								
+
+							echo '<table border="1">';
+
+								foreach ($array as $key => $value) 
+									{
+										echo "<tr></tr>";
+										for ($i=0; $i <$key ; $i++) 
+										{ 
+										
+										echo 
+											"
+											<td>" . $array[$i] . "</td>
+											";
+										}
+									}
+										
+								fclose($handle);
+
+								///////////////////////////
+
+								/*$files_handle = fopen("dm.txt", "r");
+								while (!feof($files_handle)) 
+									{
+										$line_of_text = fgets($files_handle);
+										echo $line_of_text . "<br>";
+									}
+								fclose($files_handle);*/
+							echo '</table>';
+				
+				}		
 			
 ?>	
 </body>
