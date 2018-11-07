@@ -114,7 +114,7 @@
 								fclose($handle);*/
 								closedir($dir);
 							}
-
+							echo "bonjour";
 
 				?>
 			</table>
