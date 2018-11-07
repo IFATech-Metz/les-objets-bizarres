@@ -56,11 +56,11 @@
 		</header>
 		<nav>
 			<ul>
-				<li><a href="test.php">Acceuil</a></li>
+				<li><a href="../test.php">Acceuil</a></li>
 				<li><a href="">Catalogue</a>
 					<ul>
-						<li><a href="html/creation.php">Création</a></li>
-						<li><a href="html/supression.php"> Suppresion</a></li>
+						<li><a href="creation.php">Création</a></li>
+						<li><a href="supression.php"> Suppresion</a></li>
 						<li><a href=""> Modification</a></li>
 					</ul>
 				</li>

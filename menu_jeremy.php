@@ -7,15 +7,14 @@
 	</head>
 	<body>
 		<?php
-				include 'fonctions.php';
-				$x='donnees/catalogue.txt';
-				open($x);
+				//include 'fonctions.php';
+				
 				/*if (!isset($_POST['submit'])) 
 					{*/
 				//function open($x)
 					//{
 	////////////////////ouverture du fichier////////////////////////////
-					/*$handle= fopen('donnees/catalogue.txt', 'r');
+					$handle= fopen('donnees/catalogue.txt', 'r');
 					$read_lines="";	 
 					while (!feof($handle))
 						{
@@ -38,7 +37,7 @@
 
 						$handle_write= fwrite($handle_file, $input4);
 						fclose($handle_file);
-					}*/
+					}
 
 			include 'header_jeremy.php';
 		?>
@@ -77,9 +76,9 @@
 								}
 						
 								}else
-									{ double_array($array);
+									{ //double_array($array);
 
-										/*foreach ($array as $key => $value) 
+										foreach ($array as $key => $value) 
 											{
 												echo 
 												"<tr>";
@@ -94,11 +93,11 @@
 												"</tr>";
 												$input1= $_POST['id'];
 												$input2=  $_POST['name'];
-												$input3= $_POST['date'];*/
+												$input3= $_POST['date'];
 												
 												echo crea($input1, $input2, $input3);
 											}
-							//}
+							}
 						
 
 					?>
