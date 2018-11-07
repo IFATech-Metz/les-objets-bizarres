@@ -44,6 +44,6 @@
 							echo "fichier non supprimé";
 						}
 			  }
-	?>
+	?> good
 </body>
 </html>
