@@ -40,7 +40,7 @@
 					}
 				$array= explode(":", $read_lines);
 				
-				include 'header_johan.php';
+
 
 
 			?>

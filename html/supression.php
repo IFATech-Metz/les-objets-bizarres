@@ -53,14 +53,6 @@
 							 	echo 'fichier non supprimé';
 							 }
 						}
-<<<<<<< HEAD
-					else 
-						{
-							echo "fichier non supprimé";
-						}
-			  }
-	?> 
-=======
 						echo "<p>";
 						if (file_exists("../donnees/catalogue/" . $_POST['delete'] . ".txt"))
 							{
@@ -76,6 +68,5 @@
 		?>
 		</article>
 	</section> 
->>>>>>> 9a04ad22ef7c51748f8006ecd951ef509b9618ea
 </body>
 </html>

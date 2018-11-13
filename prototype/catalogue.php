@@ -22,29 +22,27 @@
 							$lines= fgets($handle);
 							$encode= utf8_encode($lines);
 							$read_lines= $read_lines . "" . $encode;
+
 						}
 					$array= explode(":", $read_lines);
+
 					fclose($handle);
 					//}
+
 				function crea($x, $y, $z)
 				/////////////////////création de contenu////////////////////////
 					{
 						//$input1= ":<a>" . $x . "</a>";
 						$input4= ":" . $x . ";" . $y . ";" . $z;
 						$handle_file= fopen("donnees/catalogue.txt", "a");
+
 						$handle_write= fwrite($handle_file, $input4);
 						fclose($handle_file);
 					}*/
-<<<<<<< HEAD
-			include 'prototype/header_johan.php';
-		?>
-		
-=======
 
 			include 'header_jeremy.php';
 		?>
 
->>>>>>> 56f7df5a311202a6e40322898dfb74def7d78d28
 
 			<section>
 				<table border="1">
@@ -70,6 +68,7 @@
 									//
 					/////////////////// generation des td ///////////////////////////////////
 									$array2= explode(";", $value);
+
 									foreach ($array2 as $key => $value) 
 										{
 											echo "<td>" . $value . "</td>";
@@ -79,10 +78,7 @@
 						
 								}else
 									{ double_array($array);
-<<<<<<< HEAD
-=======
 
->>>>>>> 56f7df5a311202a6e40322898dfb74def7d78d28
 										/*foreach ($array as $key => $value) 
 											{
 												echo 
@@ -90,6 +86,7 @@
 												//
 								/////////////////// generation des td ///////////////////////////////////
 												$array2= explode(";", $value);
+
 												foreach ($array2 as $key => $value) 
 													{
 														echo "<td>" . $value . "</td>";
@@ -103,8 +100,12 @@
 											}
 							//}
 						
+
 					?>
 				</table>
 			</section>
 	</body>
-</html>				
+</html>						
+					
+			
+				
