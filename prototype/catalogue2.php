@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="styleboot.css">
 		<title>Le Catalogue des 10 Objets les plus bizarres et inutiles</title>
 	</head>
 	<body>
@@ -45,16 +45,9 @@
 
 			?>
 			<section>
-				<table border="1">
+				<table>
 
-					 	<form method='post' action='catalogue2.php'>
-							<tr>
-								<td><input type='text' name='id'></td>
-								<td><input type='text' name='name'></td>
-								<td><input type='text' name='date'></td>
-								<td><input type='submit' name='submit'></td>
-							</tr>
-						</form>
+					 	
 
 			<?php
 				/*echo 
