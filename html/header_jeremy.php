@@ -56,7 +56,7 @@
 		</header>
 		<nav>
 			<ul>
-				<li><a href="../test.php">Acceuil</a></li>
+				<li><a href="../index.php">Acceuil</a></li>
 				<li><a href="">Catalogue</a>
 					<ul>
 						<li><a href="creation.php">Création</a></li>

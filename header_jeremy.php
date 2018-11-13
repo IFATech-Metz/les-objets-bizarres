@@ -3,10 +3,10 @@
 				{
 					text-align: center;
 				}
-			/* a
+			 a
  	{
  		font-size: 30px;
- 	}*/
+ 	}
 
  nav{
  	display: flex;
@@ -17,7 +17,7 @@
  }
 
  ul{
- 	background-color: #ff8000;
+ 	/*background-color: #ff8000;*/
  	list-style: none;
  	display: flex;
  	flex-direction: row;
@@ -56,7 +56,7 @@
 		</header>
 		<nav>
 			<ul>
-				<li><a href="test.php">Acceuil</a></li>
+				<li><a href="index.php">Acceuil</a></li>
 				<li><a href="">Catalogue</a>
 					<ul>
 						<li><a href="html/creation.php">Création</a></li>
