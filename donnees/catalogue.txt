@@ -9,4 +9,3 @@ N7;<a href='html/pet_rock.php'>pet rock</a>; 22 novembre 2002:
 N8;<a href='html/diet_water.php'>diet water</a>;11 juillet 2005:
 N9;<a href='html/head_band.php'>headband</a>;17 août 2016:
 N10;<a href='html/toilet_paper_hat.php'>toilet paper hat; 1 octonre 2017
-:;;:;;
