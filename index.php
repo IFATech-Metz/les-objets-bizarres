@@ -27,7 +27,7 @@
 						<td>27 juillet 2016</td>
 					</tr>
 					<tr><td>N3</td>
-						<td><a href="html/tikker.html"> Le Tikker</a></td>
+						<td><a href="html/tikker.php"> Le Tikker</a></td>
 						<td>16 juin 2018</td>
 					</tr>
 					<tr>
