@@ -1,0 +1,2 @@
+11;<a href='html/traitement.php?id=11'>ordifone</a>;4/12/ 2018;<a href='html/supression.php?id=11'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=11'><img src='./image/alter.jpg'></a>;
+ ; <img class='img' src='../image/upload/'>;ordifone;

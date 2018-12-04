@@ -1,0 +1,4 @@
+﻿N1;<a href='html/traitement.php?id=1'>le nophone</a>;06/01/2018;<a href='html/supression.php?id=1'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=1'><img src='./image/alter.jpg'></a>;
+;<img src='../image/nophone.jpg'>;le nophone;Plus factice qu'un jouet pour enfant, le NoPhone se veut être une solution de désintoxication au téléphone portable. 
+Sans touche ni écran, il est fourni avec un sticker miroir à coller sur sa surface pour « partager des selfies s'ils sont derrière vous ». 
+Si le projet posté sur Kickstarter a tout l'air d'une blague, il a tout de même récolté plus de 18 000 $ sur les 5 000 escomptés.
