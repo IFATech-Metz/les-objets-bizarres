@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="../css/styleboot.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<title>creation</title>
 </head>
 <body>
 	<header>
 		<?php include 'header_jeremy.php';?>
 	</header>
-	<section class="boss">
-		<article class="bass">
-			<h1>Création de contenu</h1>
-			<form method="post" action="../index.php">
-				<label>Titre du fichier</label>
-				<input type="text" name="source"><br>
-
-				<label>ID</label>
-				<input type="text" clas="id" name="id" hidden><br>
-
+	<div class="section">
+		<article class="article">
+			
+			<form class="form" method="post" action="../index.php">
+				<h1>Création de contenu</h1>
+			
 				<label>Titre</label>
 				<input type="text" name="titre"><br>
 
-				<label>Date</label>
-				<input type="text" name="date"><br>
+				<label for="file" class="label-file">Choisir une image</label><br>
+				<input id="file" class="input-file" name="image" type="file">
+
+				<label>Description</label>
+				<textarea name="description"></textarea><br>
+
 				<div class="valider">
-					<input type="submit" name="submit" value="valider" class="valider">
+				<input type="submit" name="submit" value="valider" class="valider">
 				</div>
 			</form>
-	</article>
-	<div class="fright">
-			<h4>Liste des fichiers existants</h4>
+		</article>
+
+	<div class="liste_fichiers">		
 			<div class="liste">
+			<h4>Liste des fichiers existants</h4>
 			<?php 
 				$folder= opendir('../donnees/catalogue');
 			
@@ -45,7 +46,7 @@
 			?>
 		</div>
 	</div>
-</section>
+
 
 </body>
 </html>

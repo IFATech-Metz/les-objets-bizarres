@@ -1,0 +1,5 @@
+﻿4;<a href='html/traitement.php?id=4'>perruque pour bebe</a>;04/02/2018;<a href='html/supression.php?id=4'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=4'><img src='./image/alter.jpg'></a>;
+;<img class='img' src='../image/perruque-bebe.jpg'>;perruque pour bebe;Il manque des cheveux à votre adorable petite fille de 6 mois et les gens la prennent pour un garçon ? 
+Baby Bang rectifie le tir et vient en aide aux « filles qui ont tout, sauf des cheveux ! » 
+Ainsi, la firme commercialise des perruques surmontées d'un bandeau, d'une fleur ou d'une tiare. 
+Elles sont personnalisables en modifiant la coupe, la taille, la couleur ou les accessoires.

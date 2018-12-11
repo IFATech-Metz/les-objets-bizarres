@@ -1,6 +1,6 @@
 body{
 	width: 100%;
-	background: linear-gradient(12deg, red, orange, tomato, yellow, green, springgreen, blue, indigo, violet );
+	background: linear-gradient(318deg, red, orange, yellow, green, blue, indigo, violet);
 
     background-size: 2400% 2400%;
 
@@ -12,12 +12,6 @@ body{
 
     animation: backgroundRainbow 100s ease infinite;
 
-    .transition {
-    transition-timing-function: linear;
-    transition-timing-function: step(4, end);
-    transition-timing-function: cubic-bezier(0.25, -0.8, 0.75, 2);
-    transition-timing-function: ease-in, step-start, cubic-bezier(0.2, 1.75, 0.8, 0.75);
-}
 
 }
 @-webkit-keyframes backgroundRainbow {
@@ -164,7 +158,7 @@ input {
 
 .valider{
 	display: flex;
-	justify-content: center;ct
+	justify-content: center;
 }
 textarea{
 	border: 1px solid black;
@@ -276,8 +270,6 @@ td{
 
 .h-details
                 {
-                    font-style: oblique;
-                    font-weight: 900;
                     text-align: center;
                     align-self: center;
                     align-items: center;

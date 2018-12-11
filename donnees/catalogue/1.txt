@@ -1,0 +1,4 @@
+﻿1;<a href='html/traitement.php?id=1'> le tikker</a>;10/10/2018;<a href='html/supression.php?id=1'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=1'><img src='./image/alter.jpg'></a>;
+;<img class='img' src='../image/tikker.jpg'>;le tikker;En plus de donner l'heure, Tikker est une montre faisant aussi défiler le temps qu'il vous reste à vivre. 
+Pour la programmer, il suffit de remplir un questionnaire sur son mode de vie et l'appareil indique le jour et l'heure approximative de votre mort. 
+Selon la firme, le but de Tikker est de rappeler à son utilisateur de profiter de la vie. Lancée sur Kickstarter, la montre a récolté pas moins de 98 000 $ et est désormais commercialisée 79 $.

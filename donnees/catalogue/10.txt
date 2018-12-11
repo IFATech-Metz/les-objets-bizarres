@@ -1,0 +1,5 @@
+﻿10;<a href='html/traitement.php?id=10'>toilet paper hat</a>;01/10/2018;<a href='html/supression.php?id=10'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=10'><img src='./image/alter.jpg'></a>;
+;<img class='img' src='../image/ToiletPaperHat.jpg'>;toilet paper hat;Pour ne plus chercher de mouchoir interminablement lorsque l'on est enrhumé, la meilleure solution reste de l'avoir au-dessus de la tête. 
+Ce type d'objet est caractéristique du mouvement japonais Chindogu consistant à inventer des gadgets « utiles mais inutilisables », selon Wikipedia. 
+Il a d'ailleurs été créé par Kenji Kawakami, l'inventeur d'une centaine de produits comme le Butter Stick (beurre sous forme de stick), le parapluie intégral ou les High heels training, des talons hauts avec des petites roues pour s'entraîner. 
+Par définition, les Chindogu ne peuvent être déposés ou commercialisés.
