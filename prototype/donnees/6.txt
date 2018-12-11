@@ -1,0 +1,6 @@
+N6;<a href='html/traitement.php?id=6'>pet rock</a>; 22/07/2018;<a href='html/supression.php?id=6'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=6'><img src='./image/alter.jpg'></a>;
+;<img src='../image/PetRock.jpg'>;pet rock;En 1975, un Américain décide de commercialiser des pierres banales dans des boîtes trouées pour en faire des animaux de compagnie. 
+Un guide d'instructions décrivait alors les manières de s'en occuper. 
+Si le Pet Rock perd rapidement de sa popularité, Gary Dahl est toutefois devenu millionnaire en moins de 6 mois, selon Wikipedia, bien que son caillou ne fasse rien. 
+Pour exploiter à nouveau le filon, une version à brancher en USB est actuellement commercialisée. 
+Contrairement à l'original, l'USB Pet Rock a l'inconvénient, en plus, de consommer de l'énergie.

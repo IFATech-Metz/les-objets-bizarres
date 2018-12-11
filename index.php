@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="css/styleboot.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<title>Le Catalogue des 10 Objets les plus bizarres et inutiles</title>
 	</head>
 	<body>
@@ -13,100 +13,76 @@
 
 /////////////////////////////////////// inclusion de l'header et de la bare de navigation /////////////////////////
 						
-		include 'header_jeremy.php';
-		//	for ($i=1; $i <count($folder_file) -1 ; $i++) { 
-									$N=0;
-																	
-										
-										//$input0= "n" . $N . "." .$_POST['source'];
-										//$input1= "N" . $N;
+		include 'header_jeremy.php';								
 		?>
 
-		<section>
+		<section class="table">
 			<table border="1">
+				<tr>
+					<td>ID</td>
+					<td>TITRE</td>
+					<td>DATE</td>
+					<td class="nio">RACCOURCIS</td>
+				</tr>
 
-				<?php if (!isset($_POST['submit']))
+				<?php 	if (!isset($_POST['submit']))
 							{
-								
+								$bdd = new PDO('mysql:host=localhost;dbname=catalogue;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));//connexion à la BDD + affichage des erreurs
+									$reponse = $bdd->query('SELECT * FROM pages_catalogue ORDER BY id');//début de requête vers la BDD
+
+								$i=1;//sert à la génération d'un id dynamique					
 //////////////////////////////////// generation du contenu du tableau ///////////////////////////////////
-									
-								$folder_file= scandir('donnees/catalogue',1);
-									for ($i=0; $i <count($folder_file) -2 ; $i++)
-									//if  ($file_to_read != "." && $file_to_read !="..")
-										{ 
-											foreach ($folder_file as $key => $value) 
-										
-												{
-													if ($value == $value) 
-													
-														{
-															echo  "<br>";
-								//////////////////////////ouverture puis transformation en array de tous les fichiers contenus dans le tableau $folder_file////
-															$file_to_read = open_file('donnees/catalogue/' . $folder_file[$i]);
-
-								//transformation des array simple issue de $folder_file en double array et ainssi transformé le script en affichage d'un tableau html. se référer à la page fonctions php pour comprendre////
-															double_array($file_to_read);
-															break;
-
-														}
-												}
-										}
-							}
-/////////////////////////////////////////////////////////////////////
-							//$folder_file= scandir('donnees/catalogue');
-						/*	$folder= opendir('donnees/catalogue');
-			
-							while ($file=readdir($folder)) 
-								{
-									if  ($file != "." && $file !="..")
+								while ($donnees = $reponse->fetch())
 										{
-											//echo $file . "<br>";
-											echo  "<br>";
-								//////////////////////////ouverture puis transformation en array de tous les fichiers contenus dans le tableau $folder_file////
-															$file_to_read = open_file('donnees/catalogue/' . $file);
+											echo 
+								"<tr>
+											<td>". $i."</td>								
+											<td>". $donnees['titre_lien']."</td>									
+											<td>". $donnees['days']."</td>
+											<td class='nio'>". $donnees['suppression_modification'] . "</td>
+								</tr>";
+										$i++;}
+								$reponse->closeCursor();//fin de requête
+							}
 
-								//transformation des array simple issue de $folder_file en double array et ainssi transformé le script en affichage d'un tableau html. se référer à la page fonctions php pour comprendre////
-															double_array($file_to_read);
-															//break;
-										}
-								}
-								closedir($folder);
-							}		*/
+///////////////////////////////////////////////traitement des données après création d'un nouveau fichier/////////////////////////
+
 						else
 							{
-///////////////////////////////////création de contenu////////////////////////
-								$folder_file= scandir('donnees/catalogue',1);
-								for ($i=1; $i <count($folder_file) -1 ; $i++) { 
-									$N=$i;
-																	}
-										
-										$input0= "n" . $N . "." .$_POST['source'];
-										$input1= "N" . $N;
-										$input2= $_POST['titre'];
-										$input3= $_POST['date'];
-////////////////fonction permettant la création de contenue issue de la page création/////////////
+///////////////////////////////////création de variables contenant les donnée du formulaire création////////////////////////
+								
+								$date= date('j/m/ Y');
+								generation_id();
+								$input0 = generation_id();
+								$input1 = generation_id();
+								$input2= $_POST['titre'];
+								$input3= $date;
+								$input4= $_POST['image'];
+								$input5= $_POST['description'];
+////////////////fonction permettant la création de contenu issue de la page création/////////////
 
-								crea($input0, $input1, $input2, $input3);
+								crea($input1, $input1, $input2, $input3, $input4, $input5);//création de contenu dans un fichier text//
+								crea_bdd($input1, $input2, $input3, $input4, $input2, $input5);//création de contenu dans la base de donnée///
 
 //////////////////////////////////// generation du contenu du tableau après ajout des nouvelles entrées ///////////////////////////////////
-								//$folder_file= scandir('donnees/catalogue');
-							$folder= opendir('donnees/catalogue');
-			
-							while ($file=readdir($folder)) 
-								{
-									if  ($file != "." && $file !="..")
+							
+						
+								$bdd = new PDO('mysql:host=localhost;dbname=catalogue;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));//connexion à la BDD + affichage des erreurs
+									$reponse = $bdd->query('SELECT * FROM pages_catalogue ORDER BY id');//début de requête vers la BDD
+								
+								$i=1;//sert à la génération d'un id dynamique					
+//////////////////////////////////// generation du contenu du tableau ///////////////////////////////////
+								while ($donnees = $reponse->fetch())
 										{
-											//echo $file . "<br>";
-											echo  "<br>";
-								//////////////////////////ouverture puis transformation en array de tous les fichiers contenus dans le tableau $folder_file////
-															$file_to_read = open_file('donnees/catalogue/' . $file);
-
-								//transformation des array simple issue de $folder_file en double array et ainssi transformé le script en affichage d'un tableau html. se référer à la page fonctions php pour comprendre////
-															double_array($file_to_read);
-															//break;
-										}
-								}
-								closedir($folder);
+											echo 
+								"<tr>
+											<td>". $i."</td>								
+											<td>". $donnees['titre_lien']."</td>									
+											<td>". $donnees['days']."</td>
+											<td class='nio'>". $donnees['suppression_modification'] . "</td>
+								</tr>";
+										$i++;}
+								$reponse->closeCursor();//fin de requête
 							}
 				?>
 			</table>

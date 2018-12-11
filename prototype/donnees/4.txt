@@ -1,0 +1,4 @@
+N4;<a href='html/traitement.php?id=4'>dvd rewinder</a>;13/03/2018;<a href='html/supression.php?id=4'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=4'><img src='./image/alter.jpg'></a>;
+;<img src='../image/DVDRewinder.jpg'>;dvd rewinder;Si rembobiner vos cassettes vous manque, le DVD Rewinder propose de réaliser la même chose avec vos Cds, DVDs, les jeux vidéos de dernière génération et même les Blu-Ray. 
+Passant la bande-son à l'envers en faisant clignoter une LED. 
+« C'est vraiment fun d'entendre les sons et de voir les lumières de ce produit », comme le précise le site du fabricant.
