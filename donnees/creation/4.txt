@@ -1,0 +1,2 @@
+4;<a href='html/traitement.php?id=3&&titre=zarafone&&identifiant=3'>zarafone</a>;8/12/ 2018;<a href='html/supression.php?id=3&&titre=zarafone&&identifiant=3'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=3&&titre=zarafone&&identifiant=3'><img src='./image/alter.jpg'></a>;
+ ; <img class='img' src='../image/upload/'>;zarafone;

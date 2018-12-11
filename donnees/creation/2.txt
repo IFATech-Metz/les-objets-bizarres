@@ -1,0 +1,2 @@
+2;<a href='html/traitement.php?id=1&&titre=dez&&identifiant=1'>dez</a>;8/12/ 2018;<a href='html/supression.php?id=1&&titre=dez&&identifiant=1'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=1&&titre=dez&&identifiant=1'><img src='./image/alter.jpg'></a>;
+ ; <img class='img' src='../image/upload/'>;dez;

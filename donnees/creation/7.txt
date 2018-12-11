@@ -1,0 +1,2 @@
+7;<a href='html/traitement.php?id=6&&titre=ark&&identifiant=6'>ark</a>;8/12/ 2018;<a href='html/supression.php?id=6&&titre=ark&&identifiant=6'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=6&&titre=ark&&identifiant=6'><img src='./image/alter.jpg'></a>;
+ ; <img class='img' src='../image/upload/'>;ark;

@@ -1,0 +1,2 @@
+10;<a href='html/traitement.php?id=9&&titre=yep&&identifiant=9'>yep</a>;11/12/ 2018;<a href='html/supression.php?id=9&&titre=yep&&identifiant=9'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=9&&titre=yep&&identifiant=9'><img src='./image/alter.jpg'></a>;
+ ; <img class='img' src='../image/upload/'>;yep;
