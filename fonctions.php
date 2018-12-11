@@ -2,24 +2,12 @@
 ///////////////////////////////////création de contenu dans un fichier txt////////////////////////	
 function crea($u, $v, $w, $x, $y, $z)
 	{
-		$folder_file= scandir('./donnees/catalogue');
+		$folder_file= scandir('./donnees/creation',1);
 		for ($i=0; $i <count($folder_file) -2 ; $i++)
 						//if  ($file_to_read != "." && $file_to_read !="..")
 							{ 
-								$j= $i . '.txt';
-		///////////////////////////////////////////// A MODIFIER
-								foreach ($folder_file as $key => $value) 
-								{
-									if($j == $value)
-									{
-										$value = $i++ . '.txt';
-										$i++;
-									}
-									//echo "<br>value= $value <br> j= $j"; break;
-								}
+
 							}
-							
-		///////////////////////////////////////////// A MODIFIER
 							
 							
 			
@@ -31,24 +19,35 @@ function crea($u, $v, $w, $x, $y, $z)
 		$handle_write= fwrite($handle_file, $input4);
 		fclose($handle_file);
 	}
-////////////////////////////////création de contenu dans la base de donnée///////////////////////
-function crea_bdd($v, $w,$x,$y,$z)
+
+	////////////////////////////////création de contenu dans un fichier txt en copie///////////////////////
+	function crea2($u, $v, $w, $x, $y, $z)
 	{
-		$folder_file= scandir('./donnees/catalogue',1);
+		
+		$folder_file= scandir('./donnees/creation',1);
 		for ($i=0; $i <count($folder_file) -2 ; $i++)
 						//if  ($file_to_read != "." && $file_to_read !="..")
 							{ 
-								$j= $i . '.txt';
-		///////////////////////////////////////////// A MODIFIER
-								foreach ($folder_file as $key => $value) 
-								{
-									if($j == $value)
-									{
-										$value = $i++ . '.txt';
-										$i++;
-									}
-									//echo "<br>value= $value <br> j= $j"; break;
-								}
+
+							}
+		$_SESSIONS['i']= $i + 1;
+		//$i= $_SESSIONS['i'];
+		$input5= 'donnees/creation/' . $u . '.txt';
+		$input4= "".$v.";<a href='html/traitement.php?id=$i&&titre=$w&&identifiant=$i'>".$w."</a>;".$x.";<a href='html/supression.php?id=$i&&titre=$w&&identifiant=$i'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=$i&&titre=$w&&identifiant=$i'><img src='./image/alter.jpg'></a>;\n\r ; <img class='img' src='../image/upload/" . $y . "'>;$w;" . $z;
+		$handle_file= fopen($input5, "a");
+
+		$handle_write= fwrite($handle_file, $input4);
+		fclose($handle_file);
+	}
+
+////////////////////////////////création de contenu dans la base de donnée///////////////////////
+function crea_bdd($v, $w,$x,$y,$z)
+	{
+		$folder_file= scandir('./donnees/creation',1);
+		for ($i=0; $i <count($folder_file) -2 ; $i++)
+						//if  ($file_to_read != "." && $file_to_read !="..")
+							{ 
+								
 							}
 		
 		///////////////////////////////////////////
@@ -113,7 +112,7 @@ function double_array($x)
 
 function generation_id()
 	{
-		$folder_file= scandir('donnees/catalogue',1);
+		$folder_file= scandir('donnees/creation',1);
 		for ($i=1; $i <count($folder_file) ; $i++) 
 			{ 
 				$N=$i;

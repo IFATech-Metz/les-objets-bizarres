@@ -62,6 +62,7 @@
 ////////////////fonction permettant la création de contenu issue de la page création/////////////
 
 								crea($input1, $input1, $input2, $input3, $input4, $input5);//création de contenu dans un fichier text//
+								crea2($input1, $input1, $input2, $input3, $input4, $input5);//création de contenu dans un fichier text en copie//
 								crea_bdd($input1, $input2, $input3, $input4, $input2, $input5);//création de contenu dans la base de donnée///
 
 //////////////////////////////////// generation du contenu du tableau après ajout des nouvelles entrées ///////////////////////////////////

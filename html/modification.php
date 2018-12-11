@@ -5,7 +5,7 @@
 
 			$id=$_GET['id'];
 			$_SESSION['id']= $id;
-			$_SESSION['titre']= $_GET['titre'];
+			// $_SESSION['titre']= $_GET['titre'];
 			$bool=0;
 
 			include '../fonctions.php';
