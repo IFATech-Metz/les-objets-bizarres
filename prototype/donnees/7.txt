@@ -1,5 +1,0 @@
-N7;<a href='html/traitement.php?id=7'>diet water</a>;11/08/2018;<a href='html/supression.php?id=7'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=7'><img src='./image/alter.jpg'></a>;
-;<img src='../image/DietWater.jpg'>;diet water;Quoi de moins calorique que de l'eau plate ? De l'eau basse calorie. 
-Pour étendre le marché des eaux en bouteilles, certaines marques n'ont pas froid aux yeux. 
-Ainsi, l'enseigne japonaise Sapporo vendait de la Diet Water (eau minceur) au début des années 2000. 
-Aux États-Unis, Skinny Water se range dans la même catégorie en proposant des boissons sans calories et sans graisses, efficace pour perdre du poids.

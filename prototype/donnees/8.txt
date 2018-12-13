@@ -1,3 +1,0 @@
-N8;<a href='html/traitement.php?id=8'>headband</a>;17/09/2018;<a href='html/supression.php?id=8'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=8'><img src='./image/alter.jpg'></a>;
-;<img src='../image/headband.jpg'>;headband;Envie de tout contrôler sans bouger de son canapé ? Cette cagoule permet de ranger ses télécommandes et de les retrouver en un clin d’œil. 
-Pour cela, il suffit d'installer un scratch au dos des appareils et de les fixer autour de sa tête.

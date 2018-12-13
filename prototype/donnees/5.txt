@@ -1,4 +1,0 @@
-N5;<a href='html/traitement.php?id=5'>le wine glass grip</a>;09/04/2018;<a href='html/supression.php?id=5'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=5'><img src='./image/alter.jpg'></a>;
-;<img src='../image/WineGlassGrip.jpg'>;le wine glass grip;Pour ceux qui aurait quelques difficultés à tenir leurs verres à vin, le Wine Glass Grip guide le positionnement des doigts pour une saisie correcte du pied, évitant ainsi de réchauffer le vin en touchant le ballon. 
-Ingénieuse invention pour les enfants, encore faut-il les faire boire dans des verres à pied. 
-Mais le produit s'adresse bel et bien aux adultes, afin qu'ils reconnaissent leurs verres et ne renversent pas leur boisson quand leur niveau d'alcoolémie sera élevé.

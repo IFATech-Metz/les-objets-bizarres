@@ -1,3 +1,0 @@
-8;<a href='html/traitement.php?id=8'>Le porte-glace à piles</a>;4/12/ 2018;<a href='html/supression.php?id=8'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=8'><img src='./image/alter.jpg'></a>;
- ; <img class='img' src='../image/upload/porte-glace.jpg'>;Le porte-glace à piles;Pour éviter aux petits aux grands enfants la pénible tâche de bouger leurs poignets pour lécher leurs glaces, le Motorized ice cream cone la tourne pour eux. 
-Si elle également présentée comme une solution aux doigts salis par la crème dégoulinante, les deux présentatrices démontrent le contraire, dans la vidéo ci-dessous.
