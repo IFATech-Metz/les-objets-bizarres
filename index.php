@@ -28,7 +28,7 @@
 				<?php 	if (!isset($_POST['submit']))
 							{
 								$bdd = new PDO('mysql:host=localhost;dbname=catalogue;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));//connexion à la BDD + affichage des erreurs
-									$reponse = $bdd->query('SELECT * FROM pages_catalogue');//début de requête vers la BDD
+									$reponse = $bdd->query('SELECT * FROM pages_catalogue ORDER BY id');//début de requête vers la BDD
 
 								$i=1;//sert à la génération d'un id dynamique					
 //////////////////////////////////// generation du contenu du tableau ///////////////////////////////////
@@ -62,13 +62,14 @@
 ////////////////fonction permettant la création de contenu issue de la page création/////////////
 
 								crea($input1, $input1, $input2, $input3, $input4, $input5);//création de contenu dans un fichier text//
+								crea2($input1, $input1, $input2, $input3, $input4, $input5);//création de contenu dans un fichier text en copie//
 								crea_bdd($input1, $input2, $input3, $input4, $input2, $input5);//création de contenu dans la base de donnée///
 
 //////////////////////////////////// generation du contenu du tableau après ajout des nouvelles entrées ///////////////////////////////////
 							
 						
 								$bdd = new PDO('mysql:host=localhost;dbname=catalogue;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));//connexion à la BDD + affichage des erreurs
-									$reponse = $bdd->query('SELECT * FROM pages_catalogue');//début de requête vers la BDD
+									$reponse = $bdd->query('SELECT * FROM pages_catalogue ORDER BY id');//début de requête vers la BDD
 								
 								$i=1;//sert à la génération d'un id dynamique					
 //////////////////////////////////// generation du contenu du tableau ///////////////////////////////////

@@ -17,9 +17,9 @@
 					delete($_GET['id']);//suppresion DIRECT du fichier via reconnaissance par 'id'
 					echo "</p>
 					</div>";
-					$reference= $_GET['titre'];
+					$reference= $_GET['id'];
 					$bdd = new PDO('mysql:host=localhost;dbname=catalogue;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
-					$req= $bdd->prepare('DELETE FROM pages_catalogue WHERE titre= :reference');//suppression DIRECT du fichier dans la BDD par 'titre'
+					$req= $bdd->prepare('DELETE FROM pages_catalogue WHERE identifiant= :reference');//suppression DIRECT du fichier dans la BDD par 'titre'
 					$req->execute(array(
 						'reference' => $reference
 					));

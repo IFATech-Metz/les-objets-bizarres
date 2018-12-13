@@ -6,15 +6,15 @@
 		<nav class="navbar">
 			<ul>
 				<li><a href="../index.php"><img src="../image/accueil.png"></a></li>
-				<li><a class="Cata_Perso" href="">Catalogue</a>
+				<li><a class="Cata_Perso" href="" class="nav">Catalogue</a>
 					<ul>
-						<li><a href="creation.php">Création</a></li>
-						<li><a href="supression.php"> Suppression</a></li>
+						<li><a href="creation.php" class="nav">Création</a></li>
+						<li><a href="supression.php" class="nav"> Suppression</a></li>
 					</ul>
 				</li>
 				<li><a class="Cata_Perso" href="">Personnalisation</a>
 					<ul>
-						<li><a href="modification.php"> Modification</a></li>
+						<li><a href="modification.php" class="nav"> Modification</a></li>
 					</ul>
 				</li>
 			</ul>

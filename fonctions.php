@@ -2,13 +2,16 @@
 ///////////////////////////////////création de contenu dans un fichier txt////////////////////////	
 function crea($u, $v, $w, $x, $y, $z)
 	{
-		
-		$folder_file= scandir('./donnees/catalogue',1);
+		$folder_file= scandir('./donnees/creation',1);
 		for ($i=0; $i <count($folder_file) -2 ; $i++)
 						//if  ($file_to_read != "." && $file_to_read !="..")
 							{ 
 
 							}
+							
+							
+			
+		///////////////////////////////////////////
 		$input5= 'donnees/catalogue/' . $u . '.txt';
 		$input4= "".$v.";<a href='html/traitement.php?id=$i&&titre=$w&&identifiant=$i'>".$w."</a>;".$x.";<a href='html/supression.php?id=$i&&titre=$w&&identifiant=$i'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=$i&&titre=$w&&identifiant=$i'><img src='./image/alter.jpg'></a>;\n\r ; <img class='img' src='../image/upload/" . $y . "'>;$w;" . $z;
 		$handle_file= fopen($input5, "a");
@@ -16,14 +19,38 @@ function crea($u, $v, $w, $x, $y, $z)
 		$handle_write= fwrite($handle_file, $input4);
 		fclose($handle_file);
 	}
+
+	////////////////////////////////création de contenu dans un fichier txt en copie///////////////////////
+	function crea2($u, $v, $w, $x, $y, $z)
+	{
+		
+		$folder_file= scandir('./donnees/creation',1);
+		for ($i=0; $i <count($folder_file) -2 ; $i++)
+						//if  ($file_to_read != "." && $file_to_read !="..")
+							{ 
+
+							}
+		$_SESSIONS['i']= $i + 1;
+		//$i= $_SESSIONS['i'];
+		$input5= 'donnees/creation/' . $u . '.txt';
+		$input4= "".$v.";<a href='html/traitement.php?id=$i&&titre=$w&&identifiant=$i'>".$w."</a>;".$x.";<a href='html/supression.php?id=$i&&titre=$w&&identifiant=$i'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=$i&&titre=$w&&identifiant=$i'><img src='./image/alter.jpg'></a>;\n\r ; <img class='img' src='../image/upload/" . $y . "'>;$w;" . $z;
+		$handle_file= fopen($input5, "a");
+
+		$handle_write= fwrite($handle_file, $input4);
+		fclose($handle_file);
+	}
+
 ////////////////////////////////création de contenu dans la base de donnée///////////////////////
 function crea_bdd($v, $w,$x,$y,$z)
 	{
-		$folder_file= scandir('./donnees/catalogue',1);
-		for ($i=0; $i <count($folder_file) -2 ; $i++)//permet la création d'un id pour chaque fichier créer via la variable $i
-			{ 
-
-			}
+		$folder_file= scandir('./donnees/creation',1);
+		for ($i=0; $i <count($folder_file) -2 ; $i++)
+						//if  ($file_to_read != "." && $file_to_read !="..")
+							{ 
+								
+							}
+		
+		///////////////////////////////////////////
 		$id= $v;
 		$input0= "<a href='html/traitement.php?id=$i&&titre=$w&&identifiant=$i'>".$w."</a>";
 		$input1= $x;
@@ -34,10 +61,10 @@ function crea_bdd($v, $w,$x,$y,$z)
 		$input6= $i;
 
 		$bdd = new PDO('mysql:host=localhost;dbname=catalogue;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));//connexion à la BDD
-		$req = $bdd->prepare('INSERT INTO pages_catalogue(id, titre_lien, days, suppression_modification, image, titre, description, identifiant) 
-			VALUES(:id, :titre_lien, :days, :button, :image, :titre, :description, :identifiant)');//ces deux lignes prépare la BDD à recevoir des données via des variables externe
+		$req = $bdd->prepare('INSERT INTO pages_catalogue(titre_lien, days, suppression_modification, image, titre, description, identifiant) 
+			VALUES(:titre_lien, :days, :button, :image, :titre, :description, :identifiant)');//ces deux lignes prépare la BDD à recevoir des données via des variables externe
 		$req->execute(array(//association des $variables externes aux données que l'on changent dans la BDD via un tableau associatif
-			'id' => $id,
+			//'id' => $id,
 			'titre_lien' => $input0,
 			'days' => $input1,
 			'button' => $input2,
@@ -85,7 +112,7 @@ function double_array($x)
 
 function generation_id()
 	{
-		$folder_file= scandir('donnees/catalogue',1);
+		$folder_file= scandir('donnees/creation',1);
 		for ($i=1; $i <count($folder_file) ; $i++) 
 			{ 
 				$N=$i;
@@ -122,7 +149,7 @@ function alter($u, $v, $w, $x, $y, $z)
 
 			}
 		$input5= '../donnees/catalogue/' . $u . '.txt';
-		$input4= "".$v.";<a href='html/traitement.php?id=$u'>".$w."</a>;".$x.";<a href='html/supression.php?id=$u'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=$u'><img src='./image/alter.jpg'></a>;\n\r ; <img class='img' src='../image/upload/" . $y . "'>;$w;" . $z;
+		$input4= "".$v.";<a href='html/traitement.php?id=$u&&titre=$w&&identifiant=$i>".$w."</a>;".$x.";<a href='html/supression.php?id=$u'><img class='del-button' src='./image/del.jpg'></a><a class='alter-button' href='html/modification.php?id=$u'><img src='./image/alter.jpg'></a>;\n\r ; <img class='img' src='../image/upload/" . $y . "'>;$w;" . $z;
 		$handle_file= fopen($input5, "w");
 
 		$handle_write= fwrite($handle_file, $input4);
