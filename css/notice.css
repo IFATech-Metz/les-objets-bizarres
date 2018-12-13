@@ -1,0 +1,39 @@
+body{
+	width: 100%;
+	background: linear-gradient(12deg, red, orange, tomato, yellow, green, springgreen, blue, indigo, violet );
+
+    background-size: 2400% 2400%;
+
+    -webkit-animation: backgroundRainbow 50s ease infinite;
+
+    -moz-animation: backgroundRainbow 50s ease infinite;
+
+    -o-animation: backgroundRainbow 50s ease infinite;
+
+    animation: backgroundRainbow 50s ease infinite;
+
+}
+
+h1{
+	font-family: Impact, Charcoal, sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding: 4px;
+	margin-left: 500px;
+	order: 1;
+}
+
+li{
+	color:black;
+	margin-left: 300px;
+	font-size: 18px;
+}
+a {
+	color: yellow;
+}
+.important {
+	color: orange;
+}
